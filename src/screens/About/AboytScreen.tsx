@@ -1,10 +1,9 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import {observer} from 'mobx-react-lite';
 
 import {styles} from './AboutStyle';
 
-const AboutScreen = observer(() => {
+const AboutScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>{'В проекте используется:'}</Text>
@@ -14,6 +13,6 @@ const AboutScreen = observer(() => {
       <Text style={styles.text}>{'TabNavigation'}</Text>
     </View>
   );
-});
+};
 
 export default AboutScreen;
