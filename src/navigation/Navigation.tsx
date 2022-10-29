@@ -7,7 +7,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import {gray, lightBlue} from '../constants/UIColors';
 import {RootStackParamList, RootTabParamList} from './Navigation.types';
 import {AboutScreen} from '../screens/About';
-import {QuotesScreen} from '../screens/Quotes';
+import {GalleryPhotoScreen} from '../screens/GalleryPhoto';
 
 const Tab = createBottomTabNavigator<RootTabParamList>();
 const Stack = createStackNavigator<RootStackParamList>();
@@ -53,13 +53,13 @@ const Navigation = () => {
 
 const tabScreens = [
   {
-    component: AboutScreen,
-    name: 'about',
+    component: GalleryPhotoScreen,
+    name: 'PhotoScreen',
     icon: 'home',
   },
   {
-    component: QuotesScreen,
-    name: 'quotes',
+    component: AboutScreen,
+    name: 'About',
     icon: 'globe',
   },
 ];

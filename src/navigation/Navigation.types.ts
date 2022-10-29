@@ -4,7 +4,7 @@ import {StackNavigationProp} from '@react-navigation/stack';
 
 export type RootTabParamList = {
   about: undefined;
-  quotes: undefined;
+  photoScreen: undefined;
 };
 
 export type RootStackParamList = {

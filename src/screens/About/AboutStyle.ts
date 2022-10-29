@@ -5,6 +5,10 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 20,
+    padding: 6,
+  },
+  text: {
+    fontSize: 16,
+    fontWeight: '600',
   },
 });
