@@ -22,7 +22,6 @@ const GalleryPhotoScreen = () => {
 
   const scrollToActiveIndex = useCallback((index: number) => {
     setActiveIndex(index);
-    console.log(index, width);
     topRef?.current?.scrollToOffset({
       offset: index * width,
       animated: true,
